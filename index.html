@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic page setup -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arham Suhail | Portfolio</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Pageclip stylesheet for contact form button/loading state -->
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen" />
+</head>
+<body>
+
+<!-- =========================
+     HEADER / NAVBAR
+     Fixed top navigation
+========================== -->
+<header>
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="#home">Arham</a>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- =========================
+     MAIN CONTENT
+========================== -->
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">Hi, I’m</p>
+            <h1>Arham <span class="highlight">Suhail</span></h1>
+
+            <p class="subtitle">
+                CS student learning frontend development and building modern,
+                responsive web experiences step by step.
+            </p>
+
+            <div class="hero-actions">
+                <button id="view-work-btn" type="button">View My Work</button>
+                <a class="secondary-btn" href="#contact">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-panel">
+            <div class="hero-card">
+                <p class="card-label">Current Focus</p>
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript, responsive UI, and better design systems.</p>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <h3>2+</h3>
+                    <p>Projects Started</p>
+                </div>
+
+                <div class="stat-box">
+                    <h3>100%</h3>
+                    <p>Built by Learning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section hidden" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science student passionate about building modern web applications.
+            I enjoy learning new technologies and improving my development skills one project at a time.
+        </p>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects section hidden" id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/ArhamSuhail-darkcipher/arham-portfolio" target="_blank">
+                        GitHub
+                    </a>
+                </div>
+            </article>
+
+
+            <article class="project-card">
+                <h3>To-Do App</h3>
+
+                <p>
+                    A fully interactive task manager built with HTML, CSS, and JavaScript.
+                    Features include task editing, filtering, due dates, and persistent storage using localStorage.
+                </p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/arhamsuhail-darkcipher/todo-app" target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="https://arhamsuhail-darkcipher.github.io/todo-app" target="_blank">
+                        Live Demo
+                    </a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <h3>Comflix</h3>
+
+                <p>
+                    Comflix is a Java desktop movie recommendation system built using Java Swing
+                    and object-oriented programming principles.
+                    It provides an interactive GUI for browsing and
+                    filtering movies while supporting multiple recommendation
+                    algorithms through a clean, layered architecture.
+                </p>
+
+                <div class="tech-stack">
+                    <span>JAVA</span>
+                    <span>JAVASWING</span>
+                    <span>OOP</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://github.com/ArhamSuhail-darkcipher/Comflix-Strictly-Recommendations" target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="https://github.com/ArhamSuhail-darkcipher/Comflix-Strictly-Recommendations/tree/main/arham-comflix/docs" target="_blank">
+                        View Project
+                    </a>
+                </div>
+            </article>
+
+
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact section hidden" id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to collaborate or connect, feel free to reach out.</p>
+
+        <!-- Pageclip form -->
+        <form
+                action="https://send.pageclip.co/1tQHWCt9TCT46sqT66fbX3hjEgkgJJXx"
+                method="POST"
+                class="pageclip-form contact-form"
+        >
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="pageclip-form__submit">
+                <span>Send Message</span>
+            </button>
+        </form>
+    </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>&copy; 2026 Arham Suhail</p>
+</footer>
+
+<!-- Main JavaScript -->
+<script src="script.js"></script>
+
+<!-- Pageclip JavaScript -->
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+</body>
+</html>
